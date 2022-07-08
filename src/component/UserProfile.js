@@ -13,7 +13,7 @@ function UserProfile({ fetchUsers, Data }) {
       // console.log("bottom")
       offSet += 5
       fetchUsers()
-      console.log(offSet)
+      // console.log(offSet)
     }
   }
 
@@ -44,7 +44,7 @@ function UserProfile({ fetchUsers, Data }) {
               return (
                 <ul key={item.id}>
                   <span>{item.id}</span>
-                  <p >{item.title}</p>
+                  <p data-testid="user-item-0">{item.title}</p>
                 </ul>
               )
             })

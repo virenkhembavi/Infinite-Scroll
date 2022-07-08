@@ -13,7 +13,7 @@ export default function Counter() {
             alignItems: "center",
             justifyContent: "center",
         }}>
-            <h3>{counter}</h3>
+            <h3 >{counter}</h3>
             <div>
                 <button onClick={() => dispatch(Increment())}>+</button>
                 <button onClick={() => dispatch(Decrement())}>-</button>
